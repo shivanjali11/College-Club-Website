@@ -5,20 +5,20 @@
 }
 
 body{
-    background-color: #2a2a2c
+    background-color: #f3f3fb
 }
 
 .header{
     min-height: 100vh;
     width: 100%;
-    background: #131417;
+    background: #020819;
     position: relative;
 }
 .navbar{
     display: flex;
     padding: 20px 50px;
     align-items: center;
-    background: #2A2A2C;
+    background: #030311;
 }
 nav{
     flex: 1;
