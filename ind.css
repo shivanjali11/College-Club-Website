@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  top: 0;
+  width: 100vw;
+  margin-left: 0px;
+}
+ul.navele {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+}
+div.navele {
+  padding: 5vw;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 1vw;
+  background-color: black;
+}
+
+li {
+  font-size: large;
+  font-family: "Lexend Deca";
+  font-size: 22px;
+  color: gray;
+  margin: 1.5vw;
+  background-color: black;
+}
+li:hover {
+  /* background-color: white; */
+  color: white;
+  animation: ease-in;
+  border-radius: 50%;
+}
+#logo {
+  /* margin-left:0.5vw ; */
+  height: 10vh;
+  margin-left: 40%;
+  justify-content: center;
+}
+#main {
+  width: 100%;
+  height: 50%;
+}
+#particles-js {
+  margin-top: 12vh;
+  width: 100%;
+  height: 40%;
+  background-color: black;
+}
+#centerlogo{
+  position: absolute;
+  top: 10%;
+  width: 40vw;
+  margin-top: 20vh;
+  margin-left: 30vw ;
+  
+  color: white;
+  justify-content: center;
+ 
+}
+/* #particles-js canvas {  
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+} */
