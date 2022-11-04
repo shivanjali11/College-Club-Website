@@ -42,7 +42,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #308D46;
+    color: #e1e4e2;
     font-size: 15.5px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -210,3 +210,47 @@ p{
     height: 3vh;
     background: #131417;
 }
+.card-category-1 .basic-card{
+    background-color: #d3dbd5;
+    border-radius: 5% ;
+ 
+ 
+}
+#cardCategory1 .basic-card:hover ~ .box {
+    transform: rotateY(-25deg);
+  }
+  #cardCategory1 .basic-card:hover {
+    transform: rotateY(0deg) scale(1.25);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+  }
+  #cardCategory1 .basic-card:hover .imgBx:before {
+    opacity: 1;
+  }
+  #cardCategory1 .basic-card:hover .content h2 {
+    transform: translateY(0px);
+  }
+  #cardCategory1 .basic-card:hover .content p {
+    transform: translateY(0px)
+  }
+  .category-name{
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+ 
+  }
+ .card-category-1 .card-content span{
+   font-weight: bold;
+  }
+  .card-category-1 .card-link span{
+   color: #000;
+  }
+  .card-category-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+ 
