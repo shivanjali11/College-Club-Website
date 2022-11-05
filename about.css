@@ -250,3 +250,22 @@ nav ul li:hover{
     font-size:1.05rem;
     padding:20px 0 20px 0;
   }
+  .socials{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   background-color:#308d46;
+   background-color: ;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .socials div a{
+    color: #fff;
+   
+  }
+  .bottom-container #social-1{
+    font-size: 25px;
+  }
+  
